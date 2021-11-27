@@ -1,0 +1,18 @@
+.div_magic {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.div__container {
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+}
+
+.div__actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.div_loop {
+  border: 1px solid rgba(0, 0, 0, .3);
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}

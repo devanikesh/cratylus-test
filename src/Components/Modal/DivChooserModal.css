@@ -1,0 +1,50 @@
+
+.backdrop {
+  backdrop-filter: blur(1rem);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.modal__body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.preview {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.modal__header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.modal__footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
